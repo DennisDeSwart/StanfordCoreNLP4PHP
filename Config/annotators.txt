@@ -1,0 +1,16 @@
+tokenize	
+ssplit	tokenize
+parse	tokenize,ssplit
+pos	tokenize,ssplit
+lemma	tokenize,ssplit,pos
+ner	tokenize,ssplit,pos,lemma
+regexner	tokenize,ssplit,pos,lemma,ner
+sentiment	tokenize,ssplit,parse,pos
+truecase	tokenize,ssplit,pos,lemma
+parse	tokenize,ssplit
+depparse	tokenize,ssplit,pos
+dcoref	tokenize,ssplit,pos,lemma,ner,parse
+relation	tokenize,ssplit,pos,ner,lemma,parse
+natlog	tokenize,ssplit,pos,lemma,depparse
+cleanxml	
+quote	
