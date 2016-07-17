@@ -98,7 +98,7 @@ class Core
 		$cmd = $this->createCommand();
 		
 		//echo out for testing purposes
-		echo $cmd;
+		//echo $cmd;
 		
 		//execute the command
 		shell_exec($cmd);
