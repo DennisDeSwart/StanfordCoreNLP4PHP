@@ -1,4 +1,4 @@
-<?php //this is a demo for the StanfordNLP4PHP wrapper class.
+<?php //this is a demo for the StanfordCoreNLP4PHP wrapper class.
 
 //require all the necessary objects
 require 'Core.php';
